@@ -1,0 +1,13 @@
+{
+  "name": "tofu-plugins",
+  "description": "Tofu plugins that connect AI assistants to the Tofu MCP server.",
+  "owner": {
+    "name": "Tofu"
+  },
+  "plugins": [
+    {
+      "name": "tofu",
+      "source": "./plugins/claude"
+    }
+  ]
+}

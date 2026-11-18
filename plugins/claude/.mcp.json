@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tofu": {
+      "type": "http",
+      "url": "https://api.tofu.com/mcp"
+    }
+  }
+}
