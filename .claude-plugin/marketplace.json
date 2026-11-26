@@ -2,11 +2,11 @@
   "name": "tofu-plugins",
   "description": "Tofu plugins that connect AI assistants to the Tofu MCP server.",
   "owner": {
-    "name": "Tofu"
+    "name": "GetPaid Inc"
   },
   "plugins": [
     {
-      "name": "tofu",
+      "name": "tofu-field-service",
       "source": "./plugins/claude"
     }
   ]
