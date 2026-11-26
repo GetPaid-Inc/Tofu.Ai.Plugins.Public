@@ -1,4 +1,4 @@
-# Tofu for Claude Code
+# Tofu Field Service for Claude Code
 
 This plugin is for Tofu Field Service accounts. It lets Claude read one selected business: invoices, estimates, clients, jobs, schedule, team and the business's own price list. It cannot create or change records, send invoices or reminders, or take payments. Use the Tofu app for those actions.
 
@@ -8,10 +8,10 @@ This plugin is for Tofu Field Service accounts. It lets Claude read one selected
 
    ```bash
    claude plugin marketplace add GetPaid-Inc/Tofu.Ai.Plugins.Public
-   claude plugin install tofu@tofu-plugins
+   claude plugin install tofu-field-service@tofu-plugins
    ```
 
-2. Run `/mcp` and choose `plugin:tofu:tofu` to connect.
+2. Run `/mcp` and choose `plugin:tofu-field-service:tofu` to connect.
 3. Sign in with your Tofu account, choose the business and press Allow.
 
 Ask in your own language, for example:
@@ -40,4 +40,4 @@ Tofu's [privacy policy](https://tofu.com/legal/privacy), [terms](https://tofu.co
 
 ## Disconnect
 
-Disconnect or remove the Tofu connector in Claude's connector settings. In Claude Code, run `/mcp`, choose `plugin:tofu:tofu` and clear the authentication.
+Disconnect or remove the Tofu Field Service connector in Claude's connector settings. In Claude Code, run `/mcp`, choose `plugin:tofu-field-service:tofu` and clear the authentication.

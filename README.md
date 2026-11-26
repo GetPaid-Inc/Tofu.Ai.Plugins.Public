@@ -7,7 +7,7 @@ Connect Claude Code to your Tofu Field Service account and ask about invoices, e
 | Path | Content |
 |---|---|
 | `.claude-plugin/marketplace.json` | Claude Code marketplace `tofu-plugins` |
-| `plugins/claude/` | Claude Code plugin `tofu`: manifest, MCP connection, five skills and documentation |
+| `plugins/claude/` | Claude Code plugin `tofu-field-service`: manifest, MCP connection, five skills and documentation |
 
 Client packages live under `plugins/<client>/`. The next package can use `plugins/openai/`; it is not included yet. Each client package keeps its own manifest and connection configuration. The Claude marketplace lists only `plugins/claude/`.
 
@@ -15,10 +15,10 @@ Client packages live under `plugins/<client>/`. The next package can use `plugin
 
 ```bash
 claude plugin marketplace add GetPaid-Inc/Tofu.Ai.Plugins.Public
-claude plugin install tofu@tofu-plugins
+claude plugin install tofu-field-service@tofu-plugins
 ```
 
-Run `/mcp`, choose `plugin:tofu:tofu`, sign in with your Tofu account and select the business to connect.
+Run `/mcp`, choose `plugin:tofu-field-service:tofu`, sign in with your Tofu account and select the business to connect.
 
 See the [Claude plugin README](plugins/claude/README.md) for skills, data access and disconnect instructions.
 
